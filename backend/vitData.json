@@ -1,0 +1,9 @@
+{
+  "university": "VIT Vellore",
+  "exam_system": ["CAT 1", "CAT 2", "FAT"],
+  "grading": "Relative grading system",
+  "portal": "VTOP",
+  "hostels": ["MH", "LH", "P Block", "Q Block"],
+  "popular_branches": ["CSE", "ECE", "EEE", "Mechanical", "IT"],
+  "placements": "Mass recruiters + core companies + product companies"
+}

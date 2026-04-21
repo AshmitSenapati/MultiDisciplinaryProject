@@ -512,7 +512,9 @@ const regenerateResponse = async (index) => {
 
         {c.bot && (
           <div className="bot-msg">
-            <ReactMarkdown>{c.bot}</ReactMarkdown>
+            <ReactMarkdown>
+  {c.bot.replace(/([a-z])([A-Z])/g, "$1 $2")}
+</ReactMarkdown>
             <button onClick={() => regenerateResponse(i)}>🔄</button>
             <button onClick={() => copyText(extractText(c.bot))}>📋</button>
             <button onClick={() => speak(c.bot)}>🔊</button>

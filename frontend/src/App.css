@@ -102,6 +102,17 @@ h1 {
   margin: 8px 0;
   margin-right: 6px;
   max-width: 80%;
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
+  line-height: 1.6;
+  .bot-msg h1,
+  .bot-msg h2,
+  .bot-msg h3 {
+  letter-spacing: normal !important;
+  }
+  .bot-msg li {
+  letter-spacing: normal !important;
+  }
 }
 
 .input-area {
